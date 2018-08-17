@@ -51,6 +51,8 @@ WINEESYNC=1
 11.  Play PoE!  It should be playble now without adjusting any in-game options.  You can adjust them for your own performance preference but some people report that doing so can resurrect the shader compilation problems.
 
 
+
+
 # Tips for compiling your own DXVK+patch
 This section is a combination of the documentation from DXVK and (jomihaka's && BlazeKI's) patch.
 
@@ -79,6 +81,7 @@ cd dxvk
 patch -Np1 -i ../pipeline.patch
 ```
 3.  Compile DXVK.  Two options, each with varying build success stories.
+
 3.1
 ```
 ./package-release.sh master /your/target/directory --no-package
@@ -91,4 +94,5 @@ meson configure
 ninja
 ninja install
 ```
+
 4.  Install your compiled DLLs where Lutris can find them.  Example: ~/.local/share/lutris/runtime/dxvk/0.65_POEhack
