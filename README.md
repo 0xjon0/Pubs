@@ -14,6 +14,7 @@ This is written for DXVK version .65 on Ubuntu 18.04 but DXVK is new and evolvin
 * Mesa 18.1.2
 * root access and comfort using PPAs
 * 64bit Ubuntu 18.04
+* A standalone-enabled PoE account (you may need to PM support via the forums to get a standalone password)
 
 
 # Basic HOWTO steps
