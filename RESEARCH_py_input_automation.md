@@ -1,6 +1,6 @@
 # justawiki
 
-This is 2019 old research compiling various libraries and techniques for automating mouse and keyboard inputs in Python. It covers tools for simulating clicks, detecting key presses, and handling input events across different operating systems. The focus is on solutions that support "while key is pressed" functionality, low-level input handling, and interface scripting.
+This is 2019 research compiling various libraries and techniques for automating mouse and keyboard inputs in Python. It covers tools for simulating clicks, detecting key presses, and handling input events across different operating systems. The focus is on solutions that support "while key is pressed" functionality, low-level input handling, and interface scripting.
 
 Key areas explored include:
     Mouse automation (clicking, movement, button presses)
