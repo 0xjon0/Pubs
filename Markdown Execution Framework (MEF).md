@@ -46,6 +46,8 @@ Seeing how `uv` **streamlined my development workflow** made me ask:
 
 This led me to explore **modern PKM strategies** and rethink how I managed my files and tasks.
 
+[🔝 Back to Top](#table-of-contents)
+
 ---
 
 ## Rethinking File Organization: Why Johnny.Decimal Isn’t Enough
@@ -141,6 +143,8 @@ Choosing the right tool was a major pain point. I have an affinity for open sour
 
 ✅ The two apps I've listed are verified to provide sync services, an API and backup capabilites. There are other options you could consider, including some Open Source ones, but be careful to keep your selection focused on "Task Management" or "To Do" focused apps who primarily do those functions exceptionally well. There are many options available that are a mix of TMA and PKM which may seem appealing but, as of my research for this document, were ultimately inferior to dedicated apps that are capable of integrating with other dedicated apps. Task Management is difficult to implement well and in a manner that resonates well with a large group of users.
 
+[🔝 Back to Top](#table-of-contents)
+
 ---
 
 ## Security Considerations in MEF
@@ -178,6 +182,8 @@ MEF is designed for flexibility and interoperability, but security is an importa
 ✅ **Regularly audit your GitHub repos** to avoid accidental exposure.
 
 By implementing these security best practices, MEF can remain a flexible yet secure approach to managing tasks and knowledge across multiple components.
+
+[🔝 Back to Top](#table-of-contents)
 
 ---
 
@@ -252,6 +258,8 @@ Here’s a simple **flowchart** of a Complete System Architecture showing how ev
   [Execution Point]
 ```
 
+[🔝 Back to Top](#table-of-contents)
+
 ---
 
 ## Pros & Cons of This Modular System
@@ -268,6 +276,8 @@ Here’s a simple **flowchart** of a Complete System Architecture showing how ev
 - **Can be brittle** – Troubleshooting is required if any components break or change their interactions.
 - **Not plug-and-play** – Requires setup, configuration and maintenance.
 - **Highly personal** – Will not suit everyone's preferences.
+
+[🔝 Back to Top](#table-of-contents)
 
 ---
 
@@ -301,6 +311,8 @@ Final thought:
 
 > *Just like `uv` streamlined my Python workflow, MEF streamlined my entire productivity approach.*
 
+[🔝 Back to Top](#table-of-contents)
+
 ---
 
 ## Further Reading & References
@@ -325,6 +337,8 @@ Final thought:
 - [Markdown (Wikipedia)](https://en.wikipedia.org/wiki/Markdown)
 - [Integrated Development Environment (Wikipedia)](https://en.wikipedia.org/wiki/Integrated_development_environment)
 - [Version Control (Wikipedia)](https://en.wikipedia.org/wiki/Version_control)
+
+[🔝 Back to Top](#table-of-contents)
 
 ---
 
@@ -391,5 +405,4 @@ To address these challenges, MEF could become a **modular standard framework** f
 
 By defining these standards, MEF could evolve beyond a personal framework into a shared foundation for Markdown-based productivity tools. While this is an early-stage concept, it provides a potential roadmap for improving interoperability in a MEF ecosystem.
 
-
-
+[🔝 Back to Top](#table-of-contents)
