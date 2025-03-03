@@ -207,7 +207,7 @@ Here’s a simple **flowchart** of a basic setup showing the Core Components Flo
          ↓
 +--------+---------+
 | Task Manager     | ← EXECUTION POINT
-| (Todoist/TickTick)|   Turn knowledge into action
+|(Todoist/TickTick)|   Turn knowledge into action
 +------------------+
 ```
 
