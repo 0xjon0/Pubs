@@ -9,7 +9,7 @@ This repository serves as a collection of **technical HOWTOs** and **detailed wr
 |------|------------|
 | [HOWTO_GCCH_OneDrive_Linux.md](./HOWTO_GCCH_OneDrive_Linux.md) | Instructions for using OneDrive in GCC High (GCCH) on Linux. |
 | [HOWTO_DirectX_Linux_DXVK.md](./HOWTO_DirectX_Linux_DXVK.md) | Guide to setting up DirectX on Linux using DXVK. |
-
+| [RESEARCH_py_input_automation.md](./RESEARCH_py_input_automation.md) | Research on automating input using Python. |
 
 ---
 
