@@ -1,6 +1,6 @@
 # python-input-automation 
 
-This is 2019 research compiling various libraries and techniques for automating mouse and keyboard inputs in Python. It covers tools for simulating clicks, detecting key presses, and handling input events across different operating systems. The focus is on solutions that support "while key is pressed" functionality, low-level input handling, and interface scripting.
+This is **2019** research compiling various libraries and techniques for automating mouse and keyboard inputs in Python. It covers tools for simulating clicks, detecting key presses, and handling input events across different operating systems. The focus is on solutions that support "while key is pressed" functionality, low-level input handling, and interface scripting.
 
 Key areas explored include:
     Mouse automation (clicking, movement, button presses)
@@ -82,4 +82,4 @@ unupdated since 2014
       https://www.pygame.org/docs/ref/mouse.html
       https://www.reddit.com/r/pygame/comments/6ddbqq/how_do_you_enable_holding_keys_in_pygame/
       https://stackoverflow.com/questions/42104376/how-to-have-python-function-run-only-while-key-is-pressed
-Interesting option for *creating* games, not necessarily scripting for them
+Interesting option for *creating* games.
