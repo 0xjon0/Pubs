@@ -1,6 +1,6 @@
 # Tech HOWTOs and Writeups
 
-This repository serves as a collection of **technical HOWTOs** and **detailed writeups** on various topics, including **operating systems, workflows, development tools and cloud services.**. Each document provides practical, hands-on guidance for solving specific technical challenges.
+This repository serves as a collection of **technical HOWTOs** and **detailed writeups** on various topics, including **operating systems, workflows, development tools and cloud services**. Each document provides practical, hands-on guidance for solving specific technical challenges.
 
 ---
 
