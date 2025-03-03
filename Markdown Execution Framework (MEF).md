@@ -23,8 +23,8 @@ This narrative walks through the **process of modernizing my dev workflow and bu
 - [MEF in Action](#MEF-in-action)
 - [Pros & Cons of This Modular System](#pros--cons-of-this-modular-system)
 - [Next Steps: How to Start Modernizing Your Own System](#next-steps-how-to-start-modernizing-your-own-system)
-- [Appendix: Toward a Standardized Markdown Execution Framework (MEF)](#appendix-toward-a-standardized-markdown-execution-framework-mef)
 - [Further Reading & References](#further-reading--references)
+- [Appendix: Toward a Standardized Markdown Execution Framework (MEF)](#appendix-toward-a-standardized-markdown-execution-framework-mef)
 
 ---
 
@@ -74,6 +74,8 @@ This led me to **shift my focus from organizing information to optimizing task e
 - **Leverage PKMs and/or IDEs as a bridge** between the two when possible, ensuring tasks remain linked to broader knowledge.
 
 This shift—from **file organization to execution-driven workflows**—became the foundation of the Markdown Execution Framework (MEF).
+
+[🔝 Back to Top](#table-of-contents)
 
 ---
 
