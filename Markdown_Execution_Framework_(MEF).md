@@ -2,7 +2,7 @@
 
 ## Introduction: A Dev Workflow Overhaul That Led to a Bigger Shift
 
-Seeing how `uv` streamlined my development workflow made me realize something: My task and knowledge management workflows were outdated. I needed an approach that combined a structured knowledge base, seamless integration with development tools, and a way to execute tasks efficiently. I couldn't find a resource that put all of the components together from Source of Truth (SoT), the Markdown-based system that serves as the single source for all knowledge and tasks, up to a Task Management focus, so I built what I now call the **Markdown Execution Framework (MEF)**.
+Seeing how `uv` streamlined my development workflow made me realize something: My task and knowledge management workflows were outdated. I needed an approach that combined a structured knowledge base, seamless integration with development tools, and a way to execute tasks efficiently. I couldn't find a resource that put all of the components together from Source of Truth (SoT), the Markdown-based system that serves as the single source for all knowledge and tasks, up to a Task Management focus, so I built what I now call the **Lightweight markup language Execution Framework (LEF)**.
 
 I had been hearing about `uv` quite a bit for several months and recent reports from reputable users were resoundingly positive so I decided to try it. Most of this narrative is not about `uv`, but I want to add my voice to those who recommend it. The efficiency of `uv` made me rethink everything:
 
@@ -10,21 +10,21 @@ I had been hearing about `uv` quite a bit for several months and recent reports 
 - **How much would a purposeful file organization strategy help my productivity?**
 - **Could I build a better, more modular system for knowledge and productivity?**
 
-This narrative walks through the **process of modernizing my dev workflow and building a flexible framework** called MEF that integrates SoT, an Integrated Development environment (IDE), a dedicated Personal Knowledge Management (PKM) app (which organizes knowledge, but isn’t optimized for action), and a dedicated Task Management App (TMA) for action-oriented execution.
+This narrative walks through the **process of modernizing my dev workflow and building a flexible framework** called LEF that integrates SoT, an Integrated Development environment (IDE), a dedicated Personal Knowledge Management (PKM) app (which organizes knowledge, but isn’t optimized for action), and a dedicated Task Management App (TMA) for action-oriented execution.
 
-**Disclaimer:** Credit goes to the authors, contributors, and companies who developed these components. MEF is simply a way of structuring and integrating them in a way that makes sense for my workflow.
+**Disclaimer:** Credit goes to the authors, contributors, and companies who developed these components. LEF is simply a way of structuring and integrating them in a way that makes sense for my workflow.
 
 ## Table of Contents
 - [Introduction: A Dev Workflow Overhaul That Led to a Bigger Shift](#introduction-a-dev-workflow-overhaul-that-led-to-a-bigger-shift)
 - [How `uv` Changed My Python Workflow (And Why That Mattered)](#how-uv-changed-my-python-workflow-and-why-that-mattered)
 - [Rethinking File Organization: Why Johnny.Decimal Isn’t Enough](#rethinking-file-organization-why-johnnydecimal-isnt-enough)
-- [The Core of My Markdown Execution Framework (MEF)](#the-core-of-my-markdown-execution-framework-mef)
-- [Security Considerations in MEF](#security-considerations-in-mef)
-- [MEF in Action](#MEF-in-action)
+- [The Core of Lightweight markup language Execution Framework (LEF)](#the-core-of-lightweight-markup-language-execution-framework-lef)
+- [Security Considerations in LEF](#security-considerations-in-lef)
+- [LEF in Action](#lef-in-action)
 - [Pros & Cons of This Modular System](#pros--cons-of-this-modular-system)
 - [Next Steps: How to Start Modernizing Your Own System](#next-steps-how-to-start-modernizing-your-own-system)
 - [Further Reading & References](#further-reading--references)
-- [Appendix: Toward a Standardized Markdown Execution Framework (MEF)](#appendix-toward-a-standardized-markdown-execution-framework-mef)
+- [Appendix: Toward a Standardized LEF](#appendix-toward-a-standardized-lef)
 
 ---
 
@@ -75,15 +75,17 @@ This led me to **shift my focus from organizing information to optimizing task e
 - Use a dedicated TMA for action-oriented execution, prioritization, and real-time task updates.
 - **Leverage PKMs and/or IDEs as a bridge** between the two when possible, ensuring tasks remain linked to broader knowledge.
 
-This shift—from **file organization to execution-driven workflows**—became the foundation of the Markdown Execution Framework (MEF).
+This shift—from **file organization to execution-driven workflows**—became the foundation of the LEF.
 
 [🔝 Back to Top](#table-of-contents)
 
 ---
 
-## The Core of My Markdown Execution Framework (MEF).
+## The Core of Lightweight markup language Execution Framework (LEF)
 
-At the heart of my workflow is **Markdown**—a simple, future-proof format that syncs across multiple tools. Here’s how everything connects:
+At the heart of the workflow is **Markdown**—a simple, future-proof format that syncs across multiple tools. LEF is a framework that relies on Lightweight Markup Languages (LMLs). Markdown is the default LML for LEF because it is the current de facto standard, meets most requirements and has broad adoption. Other LMLs exist and can be used, or another LML may emerge to replace Markdown. But rest assured that the open nature and broad adoption of Markdown ensure whatever you build in it today can survive into the future.
+
+Here’s how everything connects:
 
 ### Source Of Truth: A System Using Markdown as the Universal Format
 
@@ -118,7 +120,7 @@ At the heart of my workflow is **Markdown**—a simple, future-proof format that
 ✅ You can load/access your SoT Markdown files (via local, local with IDE, or remote Version Control)
 
 - ✅ Enables more robust PKM operations on that data.
-    
+
 - ✅ Enables syncing with dedicated TMAs.
 
 ✅ Great for **backlinks, daily notes, and structured organization**.
@@ -129,11 +131,11 @@ At the heart of my workflow is **Markdown**—a simple, future-proof format that
 
 ✅ The PKM space is rich with options. Others to consider could be Joplin or Notion but I didn't test them.
 
-✅ This component is optional because TMAs provide CSV import/export and APIs. Anyone choosing to leave PKMs out of their MEF solution may be required to use an IDE or other local programmatic solution to interact with the TMA API. In other words, PKMs make syncing much easier and if you leave them out of your solution then you will have a heavier technical burden.
+✅ This component is optional because TMAs provide CSV import/export and APIs. Anyone choosing to leave PKMs out of their LEF solution may be required to use an IDE or other local programmatic solution to interact with the TMA API. In other words, PKMs make syncing much easier and if you leave them out of your solution then you will have a heavier technical burden.
 
 ### Dedicated Task Management Apps (TMAs): Todoist or TickTick
 
-Choosing the right tool was a major pain point. I have an affinity for open source (most of MEF is Open Source) but the proprietary TMA offerings are clearly superior. The tools I've listed do offer import, export, backup and API features to avoid vendor lock-in and the ability to pivot later if a viable Open Source option becomes available. This was a difficult concession to make when outlining MEF, but task management is the most important component and hard to implement well. It must be separate but integrated.
+Choosing the right tool was a major pain point. I have an affinity for open source (most of LEF is Open Source) but the proprietary TMA offerings are clearly superior. The tools I've listed do offer import, export, backup and API features to avoid vendor lock-in and the ability to pivot later if a viable Open Source option becomes available. This was a difficult concession to make when outlining LEF, but task management is the most important component and hard to implement well. It must be separate but integrated.
 
 ✅ Task managers like **Todoist or TickTick** handle daily execution. These "To Do" apps help you turn all your hard work into action!
 
@@ -147,9 +149,9 @@ Choosing the right tool was a major pain point. I have an affinity for open sour
 
 ---
 
-## Security Considerations in MEF
+## Security Considerations in LEF
 
-MEF is designed for flexibility and interoperability, but security is an important consideration when integrating multiple components. Because MEF involves syncing data between SoT, PKM, IDE, Version Control & Sync, and TMA, users should be aware of potential risks and how to mitigate them.
+LEF is designed for flexibility and interoperability, but security is an important consideration when integrating multiple components. Because LEF involves syncing data between SoT, PKM, IDE, Version Control & Sync, and TMA, users should be aware of potential risks and how to mitigate them.
 
 ### Data Privacy & Syncing Risks
 - Storing SoT in cloud-based services introduces potential privacy risks, especially if files are synced across multiple devices or shared repositories.
@@ -169,10 +171,10 @@ MEF is designed for flexibility and interoperability, but security is an importa
 - Use **access controls**, **.gitignore configurations**, and **two-factor authentication (2FA)** on Version Control & Sync platforms.
 
 ### Mobile Access & Device Security
-- Syncing MEF components to mobile increases the risk of **device theft or unauthorized access**.
+- Syncing LEF components to mobile increases the risk of **device theft or unauthorized access**.
 - Use **device encryption**, **secure lock screens**, and **multi-factor authentication (MFA)** on all cloud-synced services.
 
-## Best Practices for Secure MEF Implementation
+## Best Practices for Secure LEF Implementation
 ✅ **Use private storage or self-hosted sync solutions** for sensitive Markdown data.
 
 ✅ **Enable encryption for local files** and **secure cloud storage with MFA**.
@@ -181,13 +183,13 @@ MEF is designed for flexibility and interoperability, but security is an importa
 
 ✅ **Regularly audit your GitHub repos** to avoid accidental exposure.
 
-By implementing these security best practices, MEF can remain a flexible yet secure approach to managing tasks and knowledge across multiple components.
+By implementing these security best practices, LEF can remain a flexible yet secure approach to managing tasks and knowledge across multiple components.
 
 [🔝 Back to Top](#table-of-contents)
 
 ---
 
-## MEF in Action
+## LEF in Action
 
 Here’s a simple **flowchart** of a basic setup showing the Core Components Flow for people who prefer a minimal configuration:
 ```
@@ -269,23 +271,24 @@ Here’s a simple **flowchart** of a Complete System Architecture showing how ev
 - **Highly flexible** – Components can be swapped in and out.
 - **Markdown ensures longevity** – No vendor lock-in.
 - **Works across dev and productivity workflows**.
-- **Seamless syncing** – Data flows between components.
+- **Synchronized data** – Data flows between components.
 
 ### ❌ Cons
 
 - **Can be brittle** – Troubleshooting is required if any components break or change their interactions.
 - **Not plug-and-play** – Requires setup, configuration and maintenance.
 - **Highly personal** – Will not suit everyone's preferences.
+- **Not seamless syncing** – Each component may have different synch characteristics, including reliablity and security.
 
 [🔝 Back to Top](#table-of-contents)
 
 ---
 
-### Next Steps: How to Start Modernizing Your Own System
+## Next Steps: How to Start Modernizing Your Own System
 
-MEF is designed to be modular—start with what fits your workflow. If you're a developer, you may benefit from the IDE and Git integration. If you're more focused on research or personal productivity, you may only need the SoT and a TMA.
+LEF is designed to be modular—start with what fits your workflow. If you're a developer, you may benefit from the IDE and Git integration. If you're more focused on research or personal productivity, you may only need the SoT and a TMA.
 
-If you rely on mobile task management, start by integrating a TMA first. TMAs provide the best mobile experience, while Markdown serves as a long-term knowledge base. If mobile execution is your priority, ensure your TMA supports API sync or CSV exports for easier integration with MEF.
+If you rely on mobile task management, start by integrating a TMA first. TMAs provide the best mobile experience, while Markdown serves as a long-term knowledge base. If mobile execution is your priority, ensure your TMA supports API sync or CSV exports for easier integration with LEF.
 
 If you're interested in trying this approach, consider taking it one step at a time rather than overhauling everything at once:
 
@@ -309,7 +312,7 @@ After:
 
 Final thought:
 
-> *Just like `uv` streamlined my Python workflow, MEF streamlined my entire productivity approach.*
+> *Just like `uv` streamlined my Python workflow, LEF streamlined my entire productivity approach.*
 
 [🔝 Back to Top](#table-of-contents)
 
@@ -331,6 +334,7 @@ Final thought:
 - [Foam for VS Code](https://foambubble.github.io/)
 - [Dendron](https://wiki.dendron.so/)
 - [`uv` Package Manager](https://github.com/astral-sh/uv)
+- [Lightweight Markup Language (Wikipedia)](https://en.wikipedia.org/wiki/Lightweight_markup_language)
 - [Markdown Official Docs (Daring Fireball)](https://daringfireball.net/projects/Markdown/)
 - [CommonMark Markdown Spec](https://spec.commonmark.org/)
 - [GitHub Flavored Markdown](https://github.github.com/gfm/)
@@ -342,11 +346,11 @@ Final thought:
 
 ---
 
-## Appendix: Toward a Standardized Markdown Execution Framework (MEF)
+## Appendix: Toward a Standardized LEF
 
 As more tools adopt Markdown for personal knowledge management (PKM), task management, and development workflows, interoperability remains a challenge. While Markdown itself is widely supported, different tools handle metadata, task tracking, and sync mechanisms inconsistently.
 
-### Challenges in Standardizing MEF
+### Challenges in Standardizing LEF
 
 Here are some key challenges that make seamless integration difficult:
 
@@ -367,7 +371,7 @@ Here are some key challenges that make seamless integration difficult:
 
 #### Version Control & Sync: Gaps in Integration
 
-Several problems exist in this area. They are handled in MEF by PKMs but there is lots of room for improvement because of the limiting factors inherited from the proprietary TMAs.
+Several problems exist in this area. They are handled in LEF by PKMs but there is lots of room for improvement because of the limiting factors inherited from the proprietary TMAs.
 
 
 ❌ **Problem:** TMAs rely on **internal proprietary formats** to support their advanced features and do not natively support direct Markdown operations.
@@ -379,7 +383,7 @@ Several problems exist in this area. They are handled in MEF by PKMs but there i
 
 ✅ **Solution:** Open source TMAs exist but are inferior to the best proprietary, paid apps. An ideal solution would be the emergence of an Open Source app that competes on the same level as the proprietary apps or one of the top proprietary apps deciding to be more open with their support.
 
-✅ **Solution:** A practical approach to improving interoperability between Markdown-based task management and proprietary task apps is to establish a standardized CSV export format that all MEF-compatible tools could support.
+✅ **Solution:** A practical approach to improving interoperability between Markdown-based task management and proprietary task apps is to establish a standardized CSV export format that all LEF-compatible tools could support.
 
 
 ❌ **Problem:** Even if Markdown-based tasks are imported into a TMA (via CSV/API), there’s no good way to sync updates back to Markdown.
@@ -393,16 +397,21 @@ Several problems exist in this area. They are handled in MEF by PKMs but there i
 
 ✅ **Solution:** Define a recommended folder/file structure for large task repositories as well as how sync'd tasks are managed within a Markdown file.
 
+❌ **Problem:** Markdown itself is not without problems. There are various implementations and the most promising standardization effort (CommonMark) seems to have stalled without reaching consensus to publish a final specification. Without a finalized standard like CommonMark, Markdown-based task interoperability remains inconsistent across different PKMs and TMAs, making data portability harder to automate. There is also the possibility that a new LML could emerge to challenge Markdown's leadership position, and this is especially true in niche domains such as AI parsing or our particular use case of a task-centric workflow.
+- **Impact:** No immediate impact other than a lack of robust feature may contribute to the other problems experienced in LEF.
+
+✅ **Solution:** Consider supporting the CommonMark standard or innovating a competing standard.
+
 
 ### A Possible Path Forward
 
-To address these challenges, MEF could become a **modular standard framework** focusing on:
+To address these challenges, LEF could become a **modular standard framework** focusing on:
 
-- **Markdown Task Specification** – Encourages a **consistent tagging format** for tasks while allowing flexibility for different systems.
+- **Markdown Task Specification** – Encourages a **consistent tagging format** for tasks while allowing flexibility for different systems. This could be contributions to the standard or a new task-centric LML.
 - **Task Compatibility Guidelines** – Defines how PKMs and TMAs should handle both Dataview metadata and emoji-based tasks.
 - **File Structure Best Practices** – Provides guidance on storing Markdown-based task lists in ways that work across multiple sync solutions.
-- **Interoperability Strategies** – Explores how Markdown-based tasks can be efficiently exported and synchronized with structured TMAs through CSV or API interactions. If we continue to be limited to the proprietary TMAs, then a standardized CSV schema for Markdown task exports, allowing users to move tasks between MEF-compatible PKMs and external TMAs with minimal friction.
+- **Interoperability Strategies** – Explores how Markdown-based tasks can be efficiently exported and synchronized with structured TMAs through CSV or API interactions. If we continue to be limited to the proprietary TMAs, then a standardized CSV schema for Markdown task exports, allowing users to move tasks between LEF-compatible PKMs and external TMAs with minimal friction.
 
-By defining these standards, MEF could evolve beyond a personal framework into a shared foundation for Markdown-based productivity tools. While this is an early-stage concept, it provides a potential roadmap for improving interoperability in a MEF ecosystem.
+By defining these standards, LEF could evolve beyond a personal framework into a shared foundation for Markdown-based productivity tools. While this is an early-stage concept, it provides a potential roadmap for improving interoperability in a LEF ecosystem.
 
 [🔝 Back to Top](#table-of-contents)
