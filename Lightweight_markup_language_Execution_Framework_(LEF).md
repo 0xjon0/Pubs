@@ -323,6 +323,7 @@ Final thought:
 ### Markdown-Based PKM & Task Management
 - [Obsidian](https://obsidian.md/) | [Logseq](https://logseq.com/)
 - [Johnny.Decimal System](https://johnnydecimal.com/) | [PARA Method](https://fortelabs.co/blog/para/)
+- [Johnny.Decimal 2025 Discussion (Hacker News)](https://news.ycombinator.com/item?id=43128093)
 - [Personal Knowledge Management (Wikipedia)](https://en.wikipedia.org/wiki/Personal_knowledge_management)
 
 ### Task Management Apps (TMAs)
