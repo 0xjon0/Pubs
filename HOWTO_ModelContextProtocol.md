@@ -31,17 +31,22 @@ Before installing the MCP server package, ensure that npm is installed on your s
 sudo apt install npm
 ```
 
-Once npm is installed, you need to install the required MCP package. Run the following command:
+Once npm is installed, you need to install the required MCP package. 
+
+Install it locally within your MCP or project directory:
 
 ```sh
-npm install -g @modelcontextprotocol/server-brave-search
-```
-
-If you prefer to install it locally within your project directory, use:
-
-```sh
+cd ./myDev/myMCPs
 npm install @modelcontextprotocol/server-brave-search
 ```
+
+Or run install it globally with sudo:
+
+```sh
+sudo npm install -g @modelcontextprotocol/server-brave-search
+```
+
+Installing with either method makes the server immediately available for connection from a configured client.
 
 ## Setting Up (Connecting To) an MCP Server in VSCode
 
