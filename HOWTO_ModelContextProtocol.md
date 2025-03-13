@@ -84,8 +84,8 @@ After adding the server configuration:
 ### 3. Troubleshooting
 
 - Make sure your JSON configuration is correctly formatted.
-- Check if the server is running by listing connected MCP servers.
-  ```npx @modelcontextprotocol/list-mcp```
+- Some servers need a trigger to wake up and establish connection. Try:
+  ```npx --no-install @modelcontextprotocol/server-brave-search --version```
 - If manually running the server, try restarting VS Code.
 - If you encounter rate limits or authentication issues, ensure your API key is correct and valid.
 
