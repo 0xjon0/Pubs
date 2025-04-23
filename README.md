@@ -9,6 +9,7 @@ This repository serves as a collection of **technical HOWTOs** and **detailed wr
 ## 📂 **Index**
 | File | Description | Current As Of |
 |------|------------|--------------|
+| [AWS_Security_Studying.md](./AWS_Security_Studying.md) | A studying resource for AWS security | 2025 |
 | [HOWTO_ModelContextProtocol.md](./HOWTO_ModelContextProtocol.md) | Introduction to Model Context Protocol (MCP) | 2025 |
 | [Lightweight_markup_language_Execution_Framework_(LEF).md](./Lightweight_markup_language_Execution_Framework_(LEF).md) | How Modernizing My Dev Workflow with `uv` Led To Rethinking My Entire Productivity System | 2025 |
 | [HOWTO_GCCH_OneDrive_Linux.md](./HOWTO_GCCH_OneDrive_Linux.md) | Instructions for using `OneDrive` in MS GCC High (GCCH) on Linux. | 2024 |
